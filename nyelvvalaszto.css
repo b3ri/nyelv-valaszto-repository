@@ -1,9 +1,13 @@
 *
+
 body{
+ /* box-sizing:border-box; */
   background-image:url("assets/freedom.jpg");
-  background-repeat:no-repeat;
+  background-repeat:no-repeat;  
   background-size:cover;
-}
+  text-align:center;
+  height:100vh;
+} 
 img{
   width:100%;
   height:auto;
@@ -11,16 +15,44 @@ img{
 .main-title{
   font-family:"Advent Pro";
   margin:4vw 2vw;
-  text-transform:uppercase;
-  text-align:center;
-  font-size:4.2vw;
-  letter-spacing:0.2vw;
-  
+  text-transform:uppercase;  
+  font-size:4.5vw;
+  letter-spacing:0.2vw;  
 }
 
 .paragraph{
   text-align:center;
-  font-style: italic;
-  font-size: 1.2vw;
+  font-style:italic;
+  font-size: 1.5vw;  
+}
+
+.languages{
+  margin-top:34%;  
+}
+
+.mother-tongues{
+  text-align:center;
+  font-size:4.vw;
   
+}
+
+a{
+  background-color:black;
+  color: silver;
+  font-size:1.5vw;  
+  margin:7px;
+  padding:5px 10px;
+  border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
