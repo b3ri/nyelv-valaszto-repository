@@ -27,13 +27,13 @@ img{
 }
 
 .languages{
-  margin-top:34%;  
+  margin-top:40%;
+  
 }
 
 .mother-tongues{
   text-align:center;
-  font-size:4.vw;
-  
+  font-size:4.vw;  
 }
 
 a{
@@ -42,7 +42,19 @@ a{
   font-size:1.5vw;  
   margin:7px;
   padding:5px 10px;
-  border-radius:5px;
+  border-radius:5px;  
+}
+a:hover{
+  text-decoration:none;
+  font-size:17px;
+  
+}
+
+button{
+  background-color:green;
+  height:3px;
+  box-shadow:0 0 14px blue;
+ 
 }
 
 
